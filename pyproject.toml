@@ -18,6 +18,15 @@ classifiers = [
     "Operating System :: OS Independent"
 ]
 
+dependencies = [
+    "torch",
+    "lightning",
+    "matplotlib",
+    "cartopy",
+    "jupyterlab",
+    "xarray[complete]",
+]
+
 
 [tool.setuptools.packages.find]
 where = ["src"]

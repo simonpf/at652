@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "at652"
+version = "0.1.0"
+description = "Helper functions for the Machine Learning for Remote Sensing short course given as part of AT652 at the Department of Atmospheric Science at Colorado State University."
+authors = [
+    { name = "Simon Pfreundschuh", email = "simon.pfreundschuh@colostate.edu" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = ["example", "python", "package"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[project.urls]
+"Documentation" = "https://github.com/simonpf/at652"
+"Issue Tracker" = "https://github.com/simonpf/at652"

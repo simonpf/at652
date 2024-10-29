@@ -15,7 +15,7 @@ git clone https://github.com/simonpf/at652
 In order to run the interactive lecture slides, you will need to install a limited number of Python packages. In order to avoid conflicts with the existing compute environment it is recommeded to create a new conda environment and install the dependencies in there.
 
 ``` shellsession
-conda env create --name at652 python=3.11
+conda create --name at652 python=3.11
 conda activate at652
 ```
 

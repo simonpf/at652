@@ -48,7 +48,8 @@ def plot_optimization_steps(
         steps: List[np.ndarray],
         cmap="plasma",
         cax: Optional[plt.Axes] = None,
-        label_end_points: bool = False
+        label_end_points: bool = False,
+        label: Optional[str] = None
 ):
 
     n_steps = len(steps)
@@ -65,6 +66,10 @@ def plot_optimization_steps(
         ax.scatter(*steps[0], color=cmap.to_rgba(1), label="Initial guess", marker="x")
         ax.scatter(*steps[-1], color=cmap.to_rgba(n_steps), label=f"Step {n_steps}", marker="x")
         ax.legend()
+
+    if label is not None:
+        cntr = steps[0]
+        ax.text(cntr[0], cntr[1], s=label)
 
     if cax is not None:
         plt.colorbar(cmap, label="Optimization step", cax=cax)

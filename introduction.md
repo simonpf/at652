@@ -39,5 +39,7 @@ You can then launch a Jupyter Lab. The lecture slides are contained in the ``not
 You can use the following link to follow along with the lecuters on Google Colab:
 
 
- - [Introduction](https://colab.research.google.com/github/simonpf/at652/blob/main/notebooks/introduction.ipynb)
- - [MLP precipitation retrieval](https://colab.research.google.com/github/simonpf/at652/blob/main/notebooks/precipitation_retrieval_mlp.ipynb)
+ - [Lecture 1](https://colab.research.google.com/github/simonpf/at652/blob/main/notebooks/introduction.ipynb)
+ - [Example 1: MLP precipitation retrieval](https://colab.research.google.com/github/simonpf/at652/blob/main/notebooks/precipitation_retrieval_mlp.ipynb)
+ - [Lecture 2](https://colab.research.google.com/github/simonpf/at652/blob/main/notebooks/introduction.ipynb)
+ - [Example 2: U-net precipitation retrieval](https://colab.research.google.com/github/simonpf/at652/blob/main/notebooks/precipitation_retrieval_unet.ipynb)

@@ -1,5 +1,7 @@
 format: jb-book
 root: introduction
 chapters:
-- file: notebooks/introduction
+- file: notebooks/ml4rs_lecture1
 - file: notebooks/precipitation_retrieval_mlp
+- file: notebooks/ml4rs_lecture2
+- file: notebooks/precipitation_retrieval_unet

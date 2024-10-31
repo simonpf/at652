@@ -25,3 +25,10 @@ conda activate at652
 cd at652
 pip install .
 ```
+
+## Running the lectures on Google Colab
+
+ - [Lecture 1](https://colab.research.google.com/github/simonpf/at652/blob/main/notebooks/introduction.ipynb)
+ - [Example 1: MLP precipitation retrieval](https://colab.research.google.com/github/simonpf/at652/blob/main/notebooks/precipitation_retrieval_mlp.ipynb)
+ - [Lecture 2](https://colab.research.google.com/github/simonpf/at652/blob/main/notebooks/introduction.ipynb)
+ - [Example 2: U-net precipitation retrieval](https://colab.research.google.com/github/simonpf/at652/blob/main/notebooks/precipitation_retrieval_unet.ipynb)
